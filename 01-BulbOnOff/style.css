@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+    
+}
+.main {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    background-color: #deedea;
+    height: 100%;
+    width: 100%;
+}
+#bulb{
+    height: 300px;
+    width: 300px;
+    border: 4px solid black;
+    border-radius: 50%;
+   
+
+    
+}
+button{
+    padding: 10px 30px;
+    font-size: 20px;
+    margin: 80px;
+    cursor: pointer;
+    border-radius: 10px;
+   
+}
+.bulb-on {
+    background-color:light orange;
+    box-shadow: 0 0 50px orangered;
+}
